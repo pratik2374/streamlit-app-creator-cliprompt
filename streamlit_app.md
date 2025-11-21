@@ -5,24 +5,24 @@
 ---
 
 ## 📌 Overview
-Build a fully functional **Streamlit application** designed for a specialized AI model.  
-All **API keys**, **parameters**, **settings**, and **user inputs** must be collected **exclusively from the sidebar**.  
-The overall UI must remain **clean, modular, simple, and professional**.
+Develop a fully functional **Streamlit application** built around a specialized AI model.  
+All **API keys**, **parameters**, **settings**, and **user inputs** must be collected **strictly through the sidebar**.  
+The UI should remain **clean, minimal, modular, and professional**.
 
 ---
 
 ## ✅ Mandatory Requirements
 
 ### 1. Sidebar Input Collection (STRICT)
-Every user input **must** be inside the Streamlit sidebar — including:
+Every user input **must** be placed inside the Streamlit sidebar, including:
 - API keys  
-- Model settings  
-- Toggles & sliders  
-- Chat configurations  
+- Model configuration  
+- Toggles / sliders  
+- Chat settings  
 - File upload controls  
-- Any other parameters  
+- Any additional parameters  
 
-✔ **Example:**
+✔ Example:
 
 ```python
 with st.sidebar:
@@ -33,7 +33,7 @@ with st.sidebar:
 ---
 
 ### 2. Branding Section (COPY EXACTLY)
-This block **must be included exactly** inside the sidebar:
+This block **must be included exactly as shown** inside the sidebar:
 
 ```python
 with st.sidebar:
@@ -58,44 +58,53 @@ with st.sidebar:
 ---
 
 ## 🤖 Agents (Only If Required)
-If the user’s requirements include **agents**, then:
+If the application requires agents:
 
-- Refer to **`agno_info.txt`** for correct agent syntax  
-- Build **specialized agents** (not generic)  
-- Ensure input & output pipelines are handled cleanly  
-- When using agents for chatbot workflows, ensure proper orchestration  
+- Refer to **`agno_info.txt`** for correct syntax and structure  
+- Build **specialized**, purpose-specific agents  
+- Handle all input/output flows cleanly  
+- Ensure correct orchestration when used inside chat workflows  
 
 ---
 
 ## 🧠 Chatbot Requirements (If App Includes Chat)
-If the Streamlit app includes a chatbot:
+If the Streamlit app includes a chatbot interface:
 
-- Provide a chat interface using `st.chat_input()` & message history  
-- Always include **memory** with the LLM  
-- Ensure multi-turn conversation works properly  
-- Support agent-based or direct-LLM chat depending on user’s goal  
+- Implement chat using `st.chat_input()` and message history  
+- Always attach **memory** to the LLM  
+- Ensure multi-turn capability  
+- Allow both **direct LLM** and **agent-enhanced** chat modes  
 
 ---
 
 ## 📦 Application Functional Requirements
 
-Your app must include:
+Your application must:
 
-- Collect all settings via **sidebar**
-- Run **model inference**
-- Display results cleanly in the **main layout**
-- Support **file upload**, if needed
-- Support **chat interface**, if required
-- Use minimal UI styling (no heavy CSS or themes)
-- Organize code cleanly (functions or modular design preferred)
+- Collect all configuration via the **sidebar**  
+- Run **model inference**  
+- Show results clearly in the main UI area  
+- Support **file upload** (if required)  
+- Support **chat interface** (if required)  
+- Use **minimal styling** (no heavy CSS)  
+- Maintain a clean, modular code structure  
+
+---
+
+## 📄 Deliverables
+
+- **app.py**  
+- **requirements.txt**  
+- **README.md** explaining setup and usage  
 
 ---
 
 ## 📝 Final Notes
-Your generated Streamlit code should be:
+Generated Streamlit code must be:
+
 - Clean  
 - Simple  
 - Well-structured  
-- Easy to extend  
-- Consistent with modern Streamlit practices  
+- Easy to maintain and extend  
+- Based on modern Streamlit practices  
 
