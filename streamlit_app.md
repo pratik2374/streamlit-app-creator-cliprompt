@@ -60,7 +60,7 @@ with st.sidebar:
 ## 🤖 Agents (Only If Required)
 If the application requires agents:
 
-- Refer to **`agno_info.txt`** for correct syntax and structure  
+- ALWAYS perform a websearch to get the correct syntax and structure of that agent library
 - Build **specialized**, purpose-specific agents  
 - Handle all input/output flows cleanly  
 - Ensure correct orchestration when used inside chat workflows  
